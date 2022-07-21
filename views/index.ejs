@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Transliteration</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <img src="images/Transliteration.png" alt="Transliteration">
+    </nav>
+    <div class="content">
+        <form action="" method="post">
+            <h3 class="tit1">Select your language  </h3>
+            <div class="language1">
+                <select name="language" id="language">
+                    <option value="Hindi">Hindi</option>
+                    <option value="Marathi">Marathi</option>
+                    <option value="Telugu">Telugu</option>
+                    <option value="Tamil">Tamil</option>
+                    <option value="Kannada">Kannada</option>
+                    <option value="Odia">Odia</option>
+                    <option value="Punjabi">Punjabi</option>
+                    <option value="Gujrati">Gujrati</option>
+                    <option value="Malayalam">Malayalam</option>
+                    <option value="Bengali">Bengali</option>
+                </select>
+            </div>
+            <h3 class="tit">Enter the text in your selected regional language :</h3>
+            <div class="con">
+                <textarea name="inputData" id="inputData" cols="90" rows="10" placeholder="Enter your text"></textarea>
+                <br>
+                <button type="submit" class="btn">Transliterate To English</button>
+            </div>
+            <h3 class="tit2">Transliterated text in english is : </h3>
+            <h4></h4>
+            <br>
+            <div class="con bottom">
+                <textarea name="inputData1" id="inputData1" cols="90" rows="10"><%=tex%></textarea>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <%var year=new Date().getFullYear();%>
+        <footer>Copyright @ <%=year%> | www.transliteration.com</footer>
+    </footer>
+</body>
+
+</html>
