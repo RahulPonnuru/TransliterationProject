@@ -1,4 +1,5 @@
-# TransliterationProject
+# <h1 align="center" text-align="center" >Transliteration Project </h1>
+
 Created a website that assists in translating several Indian languages into English, so that people will be able to understand what is written in other languages in English language.
 ### Steps to run the project:
 
