@@ -56,7 +56,7 @@ app.post("/",function(req,res){
 		"path": "/transliterate?api-version=3.0&toScript=Latn&fromScript="+fromSc+"&language="+languageAc,
 		"headers": {
 			"content-type": "application/json",
-			"X-RapidAPI-Key": process.env.API_KEY,
+			"X-RapidAPI-Key": "8b7a77aaa9msh4ba0e7b98b3e262p1ed70bjsn7e33d1eed9bf",
 			"X-RapidAPI-Host": "microsoft-translator-text.p.rapidapi.com",
 			"useQueryString": true
 		}
