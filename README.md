@@ -4,7 +4,7 @@ Made a website which helps for transliterating various Indian Languages to Engli
 Steps to run the project:
 
 Clone the Repository
-Git Clone https://github.com/RahulPonnuru/TranslitertionProject.git
+Git Clone https://github.com/RahulPonnuru/TransliterationProject.git
 
 For installing all the packages 
 npm install
